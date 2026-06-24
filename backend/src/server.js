@@ -22,7 +22,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://pusle-point.vercel.app",
+      "https://pusle-point.vercel.app/api",
       "http://localhost:5173"
     ],
     credentials: true,
