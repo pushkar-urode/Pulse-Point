@@ -22,6 +22,7 @@ const app = express();
 app.use(
   cors({
     origin: [
+      "https://pulse-point-liart.vercel.app",
       "https://pusle-point.vercel.app",
       "http://localhost:5173"
     ],
