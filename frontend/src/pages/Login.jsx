@@ -19,7 +19,7 @@ function Login() {
     setError("");
 
     try {
-      const res = await api.post("/auth/login", { email, password, role });
+      const res = await api.post("/api/auth/login", { email, password, role });
       localStorage.setItem("token", res.data.token);
       localStorage.setItem("user", JSON.stringify(res.data.user));
       navigate(isDoctor ? "/doctor" : "/patient");
