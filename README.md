@@ -3,7 +3,7 @@
 A comprehensive hospital management system built with **Cursor AI** that helps manage appointments, beds, medicines, and emergency services.
 
 ## 🌐 Live Demo
-[https://pulse-point-liart.vercel.app/](https://pulse-point-liart.vercel.app/)
+Project Live Link - https://pulse-point-liart.vercel.app
 
 ## ✨ Features
 - **Authentication** - Secure user login & registration
